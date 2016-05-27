@@ -1,0 +1,117 @@
+﻿body {
+}
+
+table{
+
+}
+.intropanel {
+    position: relative;
+    top: 100px;
+}
+
+.center-block {
+    margin: 30px 20px 30px 20px;
+}
+
+.btns-intro {
+    padding-top: 20px;
+}
+
+
+/*Navigation tabs style*/
+#navTabs h3 {
+    color: white;
+    background-color: #428bca;
+    padding: 5px 15px;
+}
+
+#navTabs .tab-content {
+    color: white;
+    background-color: #084c77;
+    padding: 5px 15px;
+}
+
+
+.tab-pane.active {
+    background-color: #084c77;
+    margin-top: 20px;
+}
+
+#navTabs .nav-pills > li > a {
+    border-radius: 4px 4px 0 0;
+}
+
+#submit_btn {
+    background-color: white;
+    color: #084c77;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+/*Table styles*/
+table {
+    width: 100%;
+    border: solid;
+}
+
+tr td {
+    border: solid;
+}
+
+.behovsbedomningTd{
+    text-align: center;
+}
+
+.options {
+    text-align: center;
+}
+
+.prioriteringsTableTr {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
+
+@media only screen and (min-width:960px) {
+    /* styles for browsers larger than 960px; */
+}
+
+@media only screen and (min-width:1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (min-width:2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-device-width:480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+}
+
+@media only screen and (device-width:768px) {
+    /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width:320px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+
+    /*#navTabs .tab-content {
+        width: 150%;
+    }*/
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+}
