@@ -175,7 +175,6 @@
     <Content Include="Content\DataTables\swf\flashExport.swf" />
     <Content Include="Content\site.css" />
     <Content Include="js\app.js" />
-    <Content Include="js\app2.js" />
     <Content Include="MainPage_Arbetsgrupp.html" />
     <Content Include="MainPage_Chef.html" />
     <Content Include="packages.config" />
@@ -247,6 +246,7 @@
     <Content Include="Content\DataTables\css\mixins.scss" />
     <Content Include="Content\DataTables\css\common.scss" />
     <Content Include="data\data1.json" />
+    <Content Include="data\data2.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -274,11 +274,15 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\p5.min.js" />
     <Content Include="Scripts\underscore-min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\submittedData\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

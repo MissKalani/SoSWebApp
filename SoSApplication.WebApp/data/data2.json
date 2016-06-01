@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "title": "Bedömningsinstrument",
+    "subarea": [
+      {
+        "id": 1,
+        "title": "Identifiering av alkohol- och narkotika problem",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Diagnostik av skadligt bruk, missbruk eller beroende",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Bedömning av hjälpbehov",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Medicinska test",
+    "subarea": [
+      {
+        "id": 1,
+        "title": "Nyligt intag av alokohol",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Långvarigt högt intag av alkohol",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Pågående eller nyligt intag av narkotika",
+        "values_bedomning": [
+          0,
+          1,
+          2
+        ],
+        "values_konsekvens": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "values_andelklienter": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  }
+]

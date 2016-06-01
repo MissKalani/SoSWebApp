@@ -1,9 +1,6 @@
 ﻿body {
 }
 
-table{
-
-}
 .intropanel {
     position: relative;
     top: 100px;
@@ -16,6 +13,45 @@ table{
 .btns-intro {
     padding-top: 20px;
 }
+
+p, label, h1, h2, h3, h4, th, a {
+    word-wrap: break-word;
+}
+
+/*tables css*/
+
+tbody {
+    border-style: hidden;
+}
+
+.table > tbody > tr > td {
+    padding: 6px 3px 6px 3px;
+}
+
+.table > tbody > tr > th {
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+
+.trHeader {
+    border-style: solid;
+}
+
+tr.item {
+    border-style: hidden;
+    text-indent: 10px;
+}
+
+.areaTd {
+    border-style: hidden;
+    font-weight: bold;
+}
+
+.behovsbedomningTd {
+    border-style: hidden;
+}
+
+
 
 
 /*Navigation tabs style*/
@@ -41,7 +77,7 @@ table{
     border-radius: 4px 4px 0 0;
 }
 
-#submit_btn {
+.button {
     background-color: white;
     color: #084c77;
     margin-bottom: 10px;
@@ -58,7 +94,7 @@ tr td {
     border: solid;
 }
 
-.behovsbedomningTd{
+.behovsbedomningTd {
     text-align: center;
 }
 
@@ -67,8 +103,18 @@ tr td {
 }
 
 .prioriteringsTableTr {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border-bottom-style: hidden;
+}
+
+.prioriteringsTableTdTitle {
+    padding-top: 15px;
+    border-right-style: hidden;
+}
+
+td.prioriteringsTableTd {
+    /*padding-top: 15px;
+    padding-left: 80px;*/
+    border-right-style: hidden;
 }
 
 .animated {

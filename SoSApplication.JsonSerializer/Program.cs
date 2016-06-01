@@ -45,15 +45,49 @@ namespace SoSApplication.JsonSerializer
 
             area1.Subarea = subareaList1;
 
+            Area area2 = new Area();
+            area2.Id = 2;
+            area2.Title = "Medicinska test";
+
+            Subarea bedomningsinstrument_subarea1_2 = new Subarea();
+            bedomningsinstrument_subarea1_2.Id = 1;
+            bedomningsinstrument_subarea1_2.Title = "Nyligt intag av alokohol";
+            bedomningsinstrument_subarea1_2.Values_bedomning = new int[] { 0, 1, 2 };
+            bedomningsinstrument_subarea1_2.Values_konsekvens = new int[] { 0, 1, 2, 3 };
+            bedomningsinstrument_subarea1_2.Values_andelklienter = new int[] { 0, 1, 2, 3 };
+
+            Subarea bedomningsinstrument_subarea2_2 = new Subarea();
+            bedomningsinstrument_subarea2_2.Id = 2;
+            bedomningsinstrument_subarea2_2.Title = "Långvarigt högt intag av alkohol";
+            bedomningsinstrument_subarea2_2.Values_bedomning = new int[] { 0, 1, 2 };
+            bedomningsinstrument_subarea2_2.Values_konsekvens = new int[] { 0, 1, 2, 3 };
+            bedomningsinstrument_subarea2_2.Values_andelklienter = new int[] { 0, 1, 2, 3 };
+
+
+            Subarea bedomningsinstrument_subarea3_2 = new Subarea();
+            bedomningsinstrument_subarea3_2.Id = 3;
+            bedomningsinstrument_subarea3_2.Title = "Pågående eller nyligt intag av narkotika";
+            bedomningsinstrument_subarea3_2.Values_bedomning = new int[] { 0, 1, 2 };
+            bedomningsinstrument_subarea3_2.Values_konsekvens = new int[] { 0, 1, 2, 3 };
+            bedomningsinstrument_subarea3_2.Values_andelklienter = new int[] { 0, 1, 2, 3 };
+
+            List<Subarea> subareaList2 = new List<Subarea>();
+            subareaList2.Add(bedomningsinstrument_subarea1_2);
+            subareaList2.Add(bedomningsinstrument_subarea2_2);
+            subareaList2.Add(bedomningsinstrument_subarea3_2);
+
+            area2.Subarea = subareaList2;
+
             List<Area> areaList = new List<Area>();
             areaList.Add(area1);
+            areaList.Add(area2);
 
             var settings = new JsonSerializerSettings();
             settings.ContractResolver = new LowercaseContractResolver();
             var json = JsonConvert.SerializeObject(areaList, Formatting.Indented, settings);
  
 
-            File.WriteAllText(@"C:\dev\SoSStandardApplication\SoSApplication.JsonSerializer\json\data1.json", json);
+            File.WriteAllText(@"C:\dev\SoSStandardApplication\SoSApplication.JsonSerializer\json\data2.json", json);
 
         }
     }
